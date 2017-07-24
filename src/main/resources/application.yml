@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  context-path: /springboot
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_person
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#name: 小胖
+#age: 22
+#content: "name: ${name},age: ${age}"
